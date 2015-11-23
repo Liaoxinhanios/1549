@@ -22,6 +22,7 @@
 -(void)HelloWorld {
     
     NSLog(@"hello world");
+    NSLog(@"liaoxinhan");
 }
 
 - (void)didReceiveMemoryWarning {
