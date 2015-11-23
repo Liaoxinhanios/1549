@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC69AA671C03176700114A8D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69AA661C03176700114A8D /* TableViewCell.m */; };
 		BC740B581C02EF640010E5FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC740B571C02EF640010E5FD /* main.m */; };
 		BC740B5B1C02EF640010E5FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC740B5A1C02EF640010E5FD /* AppDelegate.m */; };
 		BC740B5E1C02EF640010E5FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC740B5D1C02EF640010E5FD /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC69AA651C03176700114A8D /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		BC69AA661C03176700114A8D /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		BC740B521C02EF640010E5FD /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC740B561C02EF640010E5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC740B571C02EF640010E5FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 		BC740B491C02EF640010E5FD = {
 			isa = PBXGroup;
 			children = (
+				BC69AA651C03176700114A8D /* TableViewCell.h */,
+				BC69AA661C03176700114A8D /* TableViewCell.m */,
 				BC740B541C02EF640010E5FD /* Test */,
 				BC740B6E1C02EF650010E5FD /* TestTests */,
 				BC740B531C02EF640010E5FD /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC740B5E1C02EF640010E5FD /* ViewController.m in Sources */,
+				BC69AA671C03176700114A8D /* TableViewCell.m in Sources */,
 				BC740B5B1C02EF640010E5FD /* AppDelegate.m in Sources */,
 				BC740B581C02EF640010E5FD /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				BC740B771C02EF650010E5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC740B781C02EF650010E5FD /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				BC740B7A1C02EF650010E5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
